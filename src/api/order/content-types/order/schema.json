@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orderId": {
+      "type": "biginteger"
+    },
+    "userId": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "orderDate": {
+      "type": "date"
+    },
+    "mealId": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::meal.meal"
+    },
+    "serving": {
+      "type": "integer"
+    },
+    "deliveryDate": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

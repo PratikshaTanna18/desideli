@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "singularName": "recipe",
+    "pluralName": "recipes",
+    "displayName": "Recipe"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "recipeId": {
+      "type": "biginteger"
+    },
+    "name": {
+      "type": "text"
+    },
+    "PreparationTime": {
+      "type": "string"
+    },
+    "Cuisine": {
+      "type": "string"
+    },
+    "CookTime": {
+      "type": "string"
+    },
+    "Calories": {
+      "type": "integer"
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "ingredients": {
+      "type": "json"
+    }
+  }
+}
