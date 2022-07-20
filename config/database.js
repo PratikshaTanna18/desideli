@@ -2,10 +2,14 @@ const path = require('path');
 
 module.exports = ({ env }) => ({
   connection: {
-    client: 'sqlite',
+    client: 'mysql',
     connection: {
-      filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.tmp/data.db')),
+      host: env('DATABASE_HOST', 'vasu-db.mysql.database.azure.com'),
+      port: env.int('DATABASE_PORT', 3306),
+      database: env('DATABASE_NAME', 'pratikshadb'),
+      user: env('DATABASE_USERNAME', 'zeal'),
+      password: env('DATABASE_PASSWORD', 'Asdfghjkl1996@'),
+      ssl: env.bool('DATABASE_SSL', true),
     },
-    useNullAsDefault: true,
   },
 });
