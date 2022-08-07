@@ -66,6 +66,9 @@
     },
     "servings": {
       "type": "integer"
+    },
+    "name": {
+      "type": "text"
     }
   }
 }
