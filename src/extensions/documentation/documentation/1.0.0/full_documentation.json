@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-20T02:01:09.206Z"
+    "x-generation-date": "2022-08-07T16:16:50.900Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -142,6 +142,30 @@
               },
               "spiceLevel": {
                 "type": "string"
+              },
+              "category": {
+                "type": "string"
+              },
+              "imageURL": {
+                "type": "string"
+              },
+              "cookTime": {
+                "type": "number",
+                "format": "float"
+              },
+              "prepTime": {
+                "type": "number",
+                "format": "float"
+              },
+              "quantity": {
+                "type": "integer"
+              },
+              "rating": {
+                "type": "number",
+                "format": "float"
+              },
+              "servings": {
+                "type": "integer"
               }
             }
           }
@@ -889,6 +913,30 @@
                     },
                     "spiceLevel": {
                       "type": "string"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "imageURL": {
+                      "type": "string"
+                    },
+                    "cookTime": {
+                      "type": "number",
+                      "format": "float"
+                    },
+                    "prepTime": {
+                      "type": "number",
+                      "format": "float"
+                    },
+                    "quantity": {
+                      "type": "integer"
+                    },
+                    "rating": {
+                      "type": "number",
+                      "format": "float"
+                    },
+                    "servings": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -1702,6 +1750,30 @@
                   },
                   "spiceLevel": {
                     "type": "string"
+                  },
+                  "category": {
+                    "type": "string"
+                  },
+                  "imageURL": {
+                    "type": "string"
+                  },
+                  "cookTime": {
+                    "type": "number",
+                    "format": "float"
+                  },
+                  "prepTime": {
+                    "type": "number",
+                    "format": "float"
+                  },
+                  "quantity": {
+                    "type": "integer"
+                  },
+                  "rating": {
+                    "type": "number",
+                    "format": "float"
+                  },
+                  "servings": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",
@@ -2589,6 +2661,30 @@
                                 },
                                 "spiceLevel": {
                                   "type": "string"
+                                },
+                                "category": {
+                                  "type": "string"
+                                },
+                                "imageURL": {
+                                  "type": "string"
+                                },
+                                "cookTime": {
+                                  "type": "number",
+                                  "format": "float"
+                                },
+                                "prepTime": {
+                                  "type": "number",
+                                  "format": "float"
+                                },
+                                "quantity": {
+                                  "type": "integer"
+                                },
+                                "rating": {
+                                  "type": "number",
+                                  "format": "float"
+                                },
+                                "servings": {
+                                  "type": "integer"
                                 },
                                 "createdAt": {
                                   "type": "string",
@@ -3498,6 +3594,30 @@
                               },
                               "spiceLevel": {
                                 "type": "string"
+                              },
+                              "category": {
+                                "type": "string"
+                              },
+                              "imageURL": {
+                                "type": "string"
+                              },
+                              "cookTime": {
+                                "type": "number",
+                                "format": "float"
+                              },
+                              "prepTime": {
+                                "type": "number",
+                                "format": "float"
+                              },
+                              "quantity": {
+                                "type": "integer"
+                              },
+                              "rating": {
+                                "type": "number",
+                                "format": "float"
+                              },
+                              "servings": {
+                                "type": "integer"
                               },
                               "createdAt": {
                                 "type": "string",

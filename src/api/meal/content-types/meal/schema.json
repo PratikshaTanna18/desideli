@@ -45,6 +45,27 @@
     },
     "spiceLevel": {
       "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "imageURL": {
+      "type": "text"
+    },
+    "cookTime": {
+      "type": "decimal"
+    },
+    "prepTime": {
+      "type": "decimal"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "servings": {
+      "type": "integer"
     }
   }
 }
